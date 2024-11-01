@@ -1,6 +1,9 @@
 ### res é uma abreviação de resources
+<br>
 
-#### pastas
+#### Pastas
+<br>
+
 #### drawable: Imagens utilizadas no aplicativo.
 #### layout: Arquivos XML que definem a estrutura da interface do usuário de cada tela.
 #### values: Valores como strings, cores, dimensões e estilos.
