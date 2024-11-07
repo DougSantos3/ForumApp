@@ -12,7 +12,7 @@
 #### . animator: Arquivos XML que definem animações de propriedades.
 #### . menu: Arquivos XML que definem menus de opções.
 #### . xml: Outros arquivos XML que podem ser utilizados para diversas finalidades.
-
+<br>
 
 ## Intellij 
 ### Limpar e reconstruir o projeto:
