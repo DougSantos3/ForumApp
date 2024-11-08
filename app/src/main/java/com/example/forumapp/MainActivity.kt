@@ -25,14 +25,13 @@
     a validação, adicionar verificações específicas de formato (como para o email), ou até
     substituir o EditText da data de nascimento por um seletor de data para facilitar a entrada. */
 
-package com.seuprojeto
+package com.example.forumapp
 
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
-import com.example.forumapp.R
 
 class MainActivity : AppCompatActivity() {
 
