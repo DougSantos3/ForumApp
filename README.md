@@ -14,7 +14,7 @@
 #### . xml: Outros arquivos XML que podem ser utilizados para diversas finalidades.
 <br>
 
-## Intellij 
+## IntelliJ
 ### Limpar e reconstruir o projeto:
 `Build > Clean Project, em seguida, Build > Rebuild Project. Isso apaga os arquivos compilados e recria-os`
 
@@ -22,7 +22,7 @@
 `File > Sync Project with Gradle Files.`
 
 ### Construa o projeto no Android Studio 
-`Menu: Build > Make Project`
+`Build > Make Project`
 
 ### Reiniciar Diretamente no Android Studio
 `File -> Selecione Invalidate Caches / Restart // Na janela que aparecer, escolha Just Restart e clique em Restart.`
