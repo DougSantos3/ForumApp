@@ -24,9 +24,10 @@
     Essa estrutura é básica para formular um comportamento simples. Mais tarde, você pode melhorar
     a validação, adicionar verificações específicas de formato (como para o email), ou até
     substituir o EditText da data de nascimento por um seletor de data para facilitar a entrada. */
-
+//Activity de login que redireciona para ForumActivity após validação
 package com.example.forumapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
@@ -54,6 +55,9 @@ class MainActivity : AppCompatActivity() {
 
             // Verificar se todos os campos estão preenchidos
             if (name.isNotEmpty() && email.isNotEmpty() && dateOfBirth.isNotEmpty()) {
+                val intent = Intent(this, ForumActivity::class.java)
+                startActivity(intent)
+
                 // Exibir mensagem com os dados preenchidos
                 Toast.makeText(this, "Nome: $name\nEmail: $email\nData de Nascimento: $dateOfBirth", Toast.LENGTH_LONG).show()
             } else {
