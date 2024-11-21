@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título da Pergunta -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Título da Pergunta"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/questionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Digite um título para sua pergunta"
+            android:inputType="text" />
+
+        <!-- Descrição da Pergunta -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Descrição"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/questionDescription"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:hint="Descreva sua pergunta em detalhes"
+            android:gravity="top"
+            android:inputType="textMultiLine" />
+
+        <!-- Tags da Pergunta -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tags"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp" />
+
+        <EditText
+            android:id="@+id/questionTags"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ex: Kotlin, Android, API"
+            android:inputType="text" />
+
+        <!-- Botão de Enviar -->
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar Pergunta"
+            android:layout_gravity="center"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>
