@@ -31,8 +31,8 @@ class QuestionFormActivity : AppCompatActivity() {
     }
 
     private fun submitQuestion(title: String, description: String, tags: String) {
-        // Aqui você pode enviar os dados para um servidor ou para um banco de dados
-        // Este é apenas um exemplo de Toast para mostrar a confirmação
+        /* Aqui você pode enviar os dados para um servidor ou para um banco de dados
+         Este é apenas um exemplo de Toast para mostrar a confirmação */
         Toast.makeText(this, "Pergunta enviada com sucesso!", Toast.LENGTH_SHORT).show()
     }
 }
