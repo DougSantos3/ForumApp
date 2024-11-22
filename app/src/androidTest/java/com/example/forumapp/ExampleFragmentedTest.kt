@@ -12,11 +12,12 @@ import org.junit.Assert.*
  * Instrumented test, which will execute on an Android device.
  *
  * See [testing documentation](http://d.android.com/tools/testing).
- *  ├── login/        # Fluxo de login
- *     │   └── dashboard/    # Fluxo do painel principal
+ * fragmented/       # Testes de Fragmentos, Activities, etc.
+ *     │   ├── fragment/     # Testes de Fragments
+ *     │   └── activity/     # Testes de Activities
  */
 @RunWith(AndroidJUnit4::class)
-class ExampleInstrumentedTest {
+class ExampleFragmentedTest {
     @Test
     fun useAppContext() {
         // Context of the app under test.
