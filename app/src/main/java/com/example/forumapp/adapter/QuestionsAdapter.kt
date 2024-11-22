@@ -7,13 +7,12 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.forumapp.model.Question
 
-/*Question: Esta classe de dados (data class) representa cada pergunta com as propriedades title e link.
-
-Este Adapter usa os dados do QuestionsViewModel para exibir uma lista de perguntas no RecyclerView.
-
-
-*/
+/* Question: Esta classe de dados (data class) representa cada pergunta com as propriedades title e
+   link.
+   Este Adapter usa os dados do QuestionsViewModel para exibir uma lista de perguntas no
+   RecyclerView. */
 
 class QuestionsAdapter(private val questions: List<Question>) : RecyclerView.Adapter<QuestionsAdapter.QuestionViewHolder>() {
 
