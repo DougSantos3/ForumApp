@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
 
             // Verificar se todos os campos estão preenchidos
             if (name.isNotEmpty() && email.isNotEmpty() && dateOfBirth.isNotEmpty()) {
-                val intent = Intent(this, ForumActivity::class.java)
+                val intent = Intent(this, QuestionFormActivity::class.java)
                 startActivity(intent)
 
                 // Exibir mensagem com os dados preenchidos
