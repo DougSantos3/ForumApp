@@ -11,12 +11,23 @@ import retrofit2.http.GET
 import retrofit2.http.Query
 
 /* Modelo de dados para perguntas
-* Esta classe é um ViewModel que realiza uma chamada à API do Stack Exchange para buscar perguntas. Usamos a biblioteca Retrofit para a requisição de rede.
-* Explicação
-fetchQuestions(tag: String): Esta função é chamada para buscar perguntas que possuem a tag especificada (exemplo: "kotlin"). Ela usa o Retrofit para fazer a requisição e atualiza questionsLiveData com os resultados.
-StackExchangeApi: Interface do Retrofit com um endpoint da API do Stack Exchange, configurado para obter perguntas.
-StackResponse e Question: Representam a estrutura dos dados que a API retorna.
-* */
+     Esta classe é um ViewModel que realiza uma chamada à API do Stack Exchange para buscar
+     perguntas. Usamos a biblioteca Retrofit para a requisição de rede.
+
+     Explicação
+        fetchQuestions(tag: String): Esta função é chamada para buscar perguntas que possuem a tag
+        especificada (exemplo: "kotlin"). Ela usa o Retrofit para fazer a requisição e atualiza
+        questionsLiveData com os resultados.
+        StackExchangeApi: Interface do Retrofit com um endpoint da API do Stack Exchange,
+        configurado para obter perguntas.
+        StackResponse e Question: Representam a estrutura dos dados que a API retorna.
+
+        QuestionsViewModel.kt:
+
+        Testar a função fetchQuestions:
+
+        Certificar-se de que os dados retornados pela API sejam processados e armazenados no LiveData.
+        Simular erros da API para verificar como a exceção é tratada. */
 data class Question(
         val title: String,
         val link: String

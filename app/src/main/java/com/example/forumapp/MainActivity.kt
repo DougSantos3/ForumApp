@@ -23,8 +23,16 @@
     Observação
     Essa estrutura é básica para formular um comportamento simples. Mais tarde, você pode melhorar
     a validação, adicionar verificações específicas de formato (como para o email), ou até
-    substituir o EditText da data de nascimento por um seletor de data para facilitar a entrada. */
-//Activity de login que redireciona para ForumActivity após validação
+    substituir o EditText da data de nascimento por um seletor de data para facilitar a entrada.
+
+    Activity de login que redireciona para ForumActivity após validação
+
+    MainActivity.kt e QuestionFormActivity.kt:
+
+    Testes:
+    Verificar validações de campos e a lógica de envio.
+    Simular a navegação entre atividades.
+    */
 package com.example.forumapp
 
 import android.content.Intent

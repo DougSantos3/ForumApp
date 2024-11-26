@@ -12,7 +12,12 @@ import com.example.forumapp.model.Question
 /* Question: Esta classe de dados (data class) representa cada pergunta com as propriedades title e
    link.
    Este Adapter usa os dados do QuestionsViewModel para exibir uma lista de perguntas no
-   RecyclerView. */
+   RecyclerView.
+
+    QuestionsAdapter.kt:
+
+    Testar a vinculação de dados: Certificar-se de que o título e o link das perguntas sejam configurados corretamente na ViewHolder.
+    Testar o comportamento de clique: Verificar se o Intent correto é criado ao clicar em um item. */
 
 class QuestionsAdapter(private val questions: List<Question>) : RecyclerView.Adapter<QuestionsAdapter.QuestionViewHolder>() {
 
