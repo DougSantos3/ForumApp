@@ -1,11 +1,12 @@
-package com.example.forumapp
+package com.example.forumapp.unit
 
-import android.content.Intent
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
 import androidx.test.core.app.ActivityScenario
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.example.forumapp.MainActivity
+import com.example.forumapp.R
 import org.junit.Assert.assertNotNull
 import org.junit.Test
 import org.junit.runner.RunWith
