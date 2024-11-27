@@ -1,9 +1,10 @@
 /* Criamos um teste para validar se os campos de texto estão visíveis e habilitados: */
 
-package com.example.forumapp
+package com.example.forumapp.fragmentedComponent
 
 import androidx.fragment.app.testing.launchFragmentInContainer
 import androidx.test.ext.junit.runners.AndroidJUnit4
+import com.example.forumapp.R
 import org.junit.Assert.*
 import org.junit.Test
 import org.junit.runner.RunWith

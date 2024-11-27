@@ -1,4 +1,4 @@
-package com.example.forumapp
+package com.example.forumapp.unit
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer

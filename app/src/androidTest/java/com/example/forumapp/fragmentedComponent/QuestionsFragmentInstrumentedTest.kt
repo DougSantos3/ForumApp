@@ -2,7 +2,7 @@
 Teste: Interação no QuestionsFragment
 Certifica que o formulário está funcional e os dados podem ser enviados. */
 
-package com.example.forumapp
+package com.example.forumapp.fragmentedComponent
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.rule.ActivityTestRule
@@ -10,6 +10,8 @@ import androidx.test.espresso.Espresso.*
 import androidx.test.espresso.action.ViewActions.*
 import androidx.test.espresso.assertion.ViewAssertions.*
 import androidx.test.espresso.matcher.ViewMatchers.*
+import com.example.forumapp.MainActivity
+import com.example.forumapp.R
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith

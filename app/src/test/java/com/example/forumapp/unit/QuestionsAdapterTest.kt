@@ -1,17 +1,16 @@
-package com.example.forumapp
+package com.example.forumapp.unit
 
 import android.content.Context
 import android.content.Intent
 import android.net.Uri
 import android.view.View
 import android.widget.TextView
-import androidx.recyclerview.widget.RecyclerView
 import com.example.forumapp.adapter.QuestionsAdapter
 import com.example.forumapp.model.Question
 import org.junit.Assert.assertEquals
-import org.junit.Assert.assertNotNull
 import org.junit.Test
 import org.mockito.Mockito.*
+import org.mockito.kotlin.argumentCaptor
 
 class QuestionsAdapterTest {
 
